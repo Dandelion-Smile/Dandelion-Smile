@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="64" viewBox="0 0 640 64" role="img" aria-labelledby="title desc">
+  <title id="title">圜的开发方向与探索</title>
+  <desc id="desc">循环打字：Java + AI 应用开发；探索新工具，动手做小产品；保持好奇，持续构建。</desc>
+  <style>
+    .words { font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif; font-size: 25px; font-weight: 600; fill: #8957e5; color: #8957e5; }
+    @media (prefers-color-scheme: dark) { .words { fill: #bc8cff; color: #bc8cff; } }
+    @media (prefers-reduced-motion: reduce) { .animated { display: none; } .still { display: block !important; } }
+  </style>
+  <defs>
+    <clipPath id="type1"><rect width="0" height="64"><animate attributeName="width" values="0;238;238;0;0" keyTimes="0;0.45;0.85;0.98;1" dur="4s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="type2"><rect width="0" height="64"><animate attributeName="width" values="0;300;300;0;0" keyTimes="0;0.45;0.85;0.98;1" dur="4s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="type3"><rect width="0" height="64"><animate attributeName="width" values="0;225;225;0;0" keyTimes="0;0.45;0.85;0.98;1" dur="4s" repeatCount="indefinite" /></rect></clipPath>
+  </defs>
+  <g class="words animated">
+    <g transform="translate(201 0)">
+      <animate attributeName="visibility" values="visible;hidden;hidden;hidden" keyTimes="0;0.333333;0.666667;1" calcMode="discrete" dur="12s" repeatCount="indefinite" />
+      <text y="40" textLength="238" lengthAdjust="spacingAndGlyphs" clip-path="url(#type1)">Java + AI 应用开发</text>
+      <rect x="4" y="18" width="2" height="27" fill="currentColor"><animate attributeName="x" values="4;242;242;4;4" keyTimes="0;0.45;0.85;0.98;1" dur="4s" repeatCount="indefinite" /><animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" /></rect>
+    </g>
+    <g transform="translate(170 0)" visibility="hidden">
+      <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.333333;0.666667;1" calcMode="discrete" dur="12s" repeatCount="indefinite" />
+      <text y="40" textLength="300" lengthAdjust="spacingAndGlyphs" clip-path="url(#type2)">探索新工具，动手做小产品</text>
+      <rect x="4" y="18" width="2" height="27" fill="currentColor"><animate attributeName="x" values="4;304;304;4;4" keyTimes="0;0.45;0.85;0.98;1" dur="4s" repeatCount="indefinite" /><animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" /></rect>
+    </g>
+    <g transform="translate(207.5 0)" visibility="hidden">
+      <animate attributeName="visibility" values="hidden;hidden;visible;visible" keyTimes="0;0.333333;0.666667;1" calcMode="discrete" dur="12s" repeatCount="indefinite" />
+      <text y="40" textLength="225" lengthAdjust="spacingAndGlyphs" clip-path="url(#type3)">保持好奇，持续构建</text>
+      <rect x="4" y="18" width="2" height="27" fill="currentColor"><animate attributeName="x" values="4;229;229;4;4" keyTimes="0;0.45;0.85;0.98;1" dur="4s" repeatCount="indefinite" /><animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" /></rect>
+    </g>
+  </g>
+  <text class="words still" x="320" y="40" text-anchor="middle" display="none">Java + AI 应用开发</text>
+</svg>
